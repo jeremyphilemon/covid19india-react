@@ -78,6 +78,16 @@ $dark-m-purple-light: #40008050;
   font-family: 'archia';
 }
 
+*::-webkit-scrollbar{
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: $blue-mid;
+}
+
+
 html {
   overflow-x: hidden;
   width: 100vw;
@@ -639,7 +649,6 @@ h6 {
     }
   }
 }
-
 .StateDropdown {
   align-items: center;
   display: flex;
@@ -652,6 +661,8 @@ h6 {
     cursor: pointer;
     padding: 0.25rem;
   }
+
+
 
   .dropdown {
     background: $white;
