@@ -21,6 +21,25 @@ function Footer() {
 
       <h5>{t('We stand with everyone fighting on the frontlines')}</h5>
 
+      <div>
+
+      <h3>Covid-19 Helpline:
+      
+<a href="tel:1075" >|Health Ministry| </a>
+
+<a href="tel:1098"> | Child Support | </a>
+<a href="tel:08046110007"> | Mental Health | </a>
+<a href="tel:14567"> | Senior Citizens | </a>
+<a href="tel:14443"> | Counselling | </a>
+<a href="tel:9013151515"> | MyGov Whatsapp Helpdesk | </a>
+
+</h3>
+
+      </div>
+      
+      
+
+
       <div className="links">
         <a
           href="https://github.com/covid19india/covid19india-react"
