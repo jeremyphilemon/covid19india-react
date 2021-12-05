@@ -81,7 +81,6 @@ $dark-m-purple-hover: #40008090;
 }
 
 html {
-  overflow-x: hidden;
   width: 100vw;
 }
 
@@ -89,6 +88,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
 }
 
